@@ -12,13 +12,16 @@
     <!--------------- Bootstrap link ---------------->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 
+    <!------------ font awesome icon link ------------->
+    <script src="https://kit.fontawesome.com/4353556522.js" crossorigin="anonymous"></script>
+
 </head>
 
-<body class="container">
-    <header>    
+<body>
+    <header class="container">    
             <!-------------- navbar section start ----------------->
-            <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid"> 
+                  <nav class="navbar navbar-expand-lg bg-light">
                   <a class="navbar-brand fw-bold fs-3" href="index.html"> <img src="image/nav_logo.png" alt=""> Edu <span class="text-success">Share</span> </a>
 
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,19 +34,19 @@
                         <a class="nav-link active fs-5" aria-current="page" href="index.html">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link fs-5" href="#">Courses</a>
+                        <a class="nav-link fs-5" href="#courses">Courses</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link fs-5" href="#">Deals</a>
+                        <a class="nav-link fs-5" href="#deals">Deals</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link fs-5" href="#">Success</a>
+                        <a class="nav-link fs-5" href="#students">Success</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link fs-5" href="#">About</a>
+                        <a class="nav-link fs-5" href="#about">About</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link fs-5" href="#">Register</a>
+                        <a class="nav-link fs-5" href="#reg">Register</a>
                       </li>
                     <form class="ms-5">
                       <button class="btn btn-outline-success fw-bold px-4 py-3" type="submit">Register</button>
@@ -54,7 +57,7 @@
               <!-------------- navbar section End ------------------->
     </header>
             
-    <main class="my-5">
+    <main class="my-5 container">
            <!-------------- image slide section start------------------->
           <section class="my-5">
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -105,7 +108,7 @@
            <!-------------- image slide section end  --------------------->
 
           <!-------------- course cards section start --------------------->
-          <section class="my-5">
+          <section class="my-5" id="courses">
                   <h1 class="text-center">Discover Our Popular Courses</h1>
                   <p class="fs-5 text-center">Explore the most trending Digital courses and Enroll to achieve your Goal</p>
                   <br><br>
@@ -227,9 +230,9 @@
           <!-------------- course cards section End --------------------->
          
 
-          <!-------------- why choose EduShare section start ------------------------>
+          <!-------------- Why choose EduShare section start ------------------------>
           <section class="my-5">
-                  <div class="card mb-3">
+                  <div class="card mb-3  bg-success bg-opacity-25">
                     <div class="row g-0">
                       <div class="col-md-4">
                         <img src="image/working.png" class="img-fluid rounded-start" alt="...">
@@ -263,10 +266,10 @@
                     </div>
                   </div>
           </section>
-          <!-------------- why choose EduShare section end ------------------------>
+          <!-------------- Why choose EduShare section end ------------------------>
           
-          <!-------------------Ready to join section start---------------------------------->
-          <section class="bg-success d-flex justify-content-around py-lg-5 px-sm-4 px-3">
+          <!-------------------Registration section start---------------------------------->
+          <section class="my-5 bg-success d-flex justify-content-around py-lg-5 px-sm-4 px-3" id="reg">
                       <div class="text-light">
                            <h1>Ready To Join?</h1>
                            <p>If you're interested to start your new career , Lets Start the journey along with us</p>
@@ -334,20 +337,237 @@
                       </div>
 
           </section>
-          <!-------------------Ready to join section End---------------------------------->
+          <!-------------------Registration section End---------------------------------->
            
 
+          <!------------------ Students section start --------------------------------------->
+          <section class="my-5" id="students">
+                      <h1>Meet Our Successful Students</h1>
+                      <p>After finishing the course, <br> over 2500+ of our students gave a positive feedback and over 2000+ students are doing job in the renowned company. <br> We are really proud of their glorious achievement.</p>
+                      <p>We are trying our best to help our new comer students to expand more and build their career in easier way </p>
+
+                      <div class="container">
+                          <div class="row g-3 g-xl-3 g-lg-3 g-md-3">
+                                      <div class="col-lg-3 col-md-6 g-md-3 g-lg-3 g-xl-3">
+                                            <div class="card" style="width: 18rem;">
+                                              <img src="image/student/student-1.png" class="card-img-top" alt="...">
+                                              <div class="card-body">
+                                                <h5 class="card-title">Asif Mahmud</h5>
+                                                <p class="card-text">Web Developper</p>
+                                               
+                                              </div>
+                                            </div>
+                                      </div>
+                                      <div class="col-lg-3 col-md-6 g-md-3 g-lg-3 g-xl-3">
+                                              <div class="card" style="width: 18rem;">
+                                                <img src="image/student/student-2.png" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Zayda Khan</h5>
+                                                  <p class="card-text">UI/UX Designer</p>
+                                                 
+                                                </div>
+                                              </div>
+                                      </div>
+                                      <div class="col-lg-3 col-md-6 g-md-3 g-lg-3 g-xl-3">
+                                              <div class="card" style="width: 18rem;">
+                                                <img src="image/student/student-3.png" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Zaker Abdullah</h5>
+                                                  <p class="card-text">Ethical Hacker</p>
+                                                  
+                                                </div>
+                                              </div>
+                                      </div>
+                                      <div class="col-lg-3 col-md-6 g-md-3 g-lg-3 g-xl-3">
+                                              <div class="card" style="width: 18rem;">
+                                                <img src="image/student/student-4.png" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Nusayba Khatun</h5>
+                                                  <p class="card-text">Graphics Designer</p>
+                                                  
+                                                </div>
+                                              </div>
+                                      </div>
+
+                          </div>
+                      </div> <br><br>
+
+                      <div class="text-center"><button class="btn btn-success px-4 py-3">View All</button></div>
+          </section>
+          <!------------------ Students section end --------------------------------------->
+
+          <!----------------- QnA section start  --------------------------------------------->
+          <section class="my-5">
+                <div class="my-5">
+                  <h1 class="text-center">Frequently Asked Question</h1>
+                  <p class="text-center"> There are some fundamental Questions which are always been asked in iterviews about Web Development </p>
+                </div>
+
+                   <div>
+                            <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                             What is the difference between Flexbox & Grid ?
+                                            </button>
+                                          </h2>
+                                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <strong> flexbox was designed for layout in one dimension either a row or a column.</strong> On the Other hand , the <strong>Grid was designed for two-dimensional layout - rows, and columns at the same time.</strong> Flexbox works better in one dimension only (either rows OR columns).
+                                              It will be more time saving and helpful if you use both at the same time.   
+                                              <p>Here some special points stated below that shows the differences between them : </p>
+                                              <ul>
+                                                   <li> <span class="fw-bold">Dimensionality and Flexibility:</span> Flexbox offers greater control over alignment and space distribution between items. Being one-dimensional, Flexbox only deals with either columns or rows.<br>Grid has two-dimension layout capabilities which allow flexible widths as a unit of length. This compensates for the limitations in Flex.</li>
+                                                   <li> <span class="fw-bold">Alignment: </span> Flex Direction allows developers to align elements vertically or horizontally, which is used when developers create and reverse rows or columns <br> CSS Grid deploys fractional measure units for grid fluidity and auto-keyword functionality to automatically adjust columns or rows. </li>
+                                                   <li> <span class="fw-bold">Item Management: </span> Flex Container is the parent element while Flex Item represents the children. The Flex Container can ensure balanced representation by adjusting item dimensions. This allows developers to design for fluctuating screen sizes. <br> Grid supports both implicit and explicit content placement. Its inbuilt automation allows it to automatically extend line items and copy values into the new creation from the preceding item. </li>
+                                              </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                               Bootstap or TailwindCSS , which one should I use ?
+                                            </button>
+                                          </h2>
+                                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <strong>The Bootstrap framework can best be described as a component-based framework.</strong> Component-based CSS frameworks are made up of predefined components, or parts, that can be used to style HTML, making responsive website development faster and easier. on the other hand, <strong>Tailwind CSS can best be described as a “utility-first” framework.</strong> Utility-first frameworks are composed of small, simple classes that can be applied to elements to create a user interface or UI. On the surface, using Tailwind doesn’t look too different from writing inline styles. However, what this framework offers is customizability. Instead of being restrained by the premade components from Bootstrap, you can essentially create your own UI with Tailwind to meet your project’s needs.
+                                              <ul>
+                                                <li> <span class="fw-bold">Performance: </span> Bootstrap requires four main  files to be incorporated in the project for development which requires heavy space to be occupied about 300 kb. <br> In Tailwind CSS, we need style sheets to get our task done. This CSS file occupies about 30kb of the space. </li>
+                                                <li> <span class="fw-bold">Build Time:</span> In Bootstrap, we have a lot of overhead code, and this causes the build time to be around 160 seconds <br> As Tailwind has built-in utility libraries, this shortens the build time up to 8 to 10 seconds. </li>
+                                                <li> <span class="fw-bold">Community: </span> Bootstrap has been released about nine years ago and used as the most popular framework of CSS. That’s why it is having one largest communities of millions of developers with tools and forums. <br> If we talk about Tailwind, it has been introduced recently and has started growing gradually. That’s why there is still a lot of room for Tailwind to have a strong community of developers and tools. </li>
+                                           </ul> 
+                                           <p>Before deciding which framework is better than the other, let’s first discuss few examples of Bootstrap and Tailwind CSS for proper understanding.</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                              What is CSS Box-Model ?
+                                            </button>
+                                          </h2>
+                                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <p><strong> CSS Box-Model</strong> is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements. The web browser renders every element as a rectangular box according to the CSS box model. Box-Model has multiple properties in CSS. Some of them are given below: </p>
+                                              <ul>
+                                                <li> <span class="fw-bold">content: </span>This property is used to displays the text, images, etc, that can be sized using the width & height property.</li>
+                                                <li> <span class="fw-bold">padding: </span>This property is used to create space around the element, inside any defined border.</li>
+                                                <li> <span class="fw-bold">border: </span>This property is used to cover the content & any padding, & also allows to set the style, color, and width of the border.</li>
+                                                <li> <span class="fw-bold">margin: </span>This property is used to create space around the element ie., around the border area.</li>
+                                              </ul>
+                                              
+
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <!-- accordion item 4 -->
+                                          <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingFour">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                What does Semantic Tags mean ?
+                                              </button>
+                                            </h2>
+                                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                              <div class="accordion-body">
+                                                <strong>Semantic HTML elements</strong> are those that clearly describe their meaning in a human- and machine-readable way Elements such as <code> < header ></code> <code>< footer ></code>  and <code>< article ></code> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
+                                                <p>Where the internet was originally intended for sharing scientific documents, now people wanted to share other things as well. Very quickly, people started wanting to make the web look nicer.</p>
+                                                <p>As the use of visually designed layouts progressed, programmers started to use a generic “non-semantic” tag like <code>< div ></code> . They would often give these elements a class or id attribute to describe their purpose. For example, instead of <code>< header ></code> this was often written as <code> < div class="header"> </code>. </p>
+                                                <p>In HTML there are some semantic elements that can be used to define different parts of a web page:  </p>
+                                                <ul>
+                                                      <li><code>< article ></code></li>
+                                                      <li><code>< aside ></code></li>
+                                                      <li><code>< details ></code></li>
+                                                      <li><code>< figcaption ></code></li>
+                                                      <li><code>< figure ></code></li>
+                                                      <li><code>< footer ></code></li>
+                                                      <li><code>< header ></code></li>
+                                                      <li><code>< main ></code></li>
+                                                      <li><code>< mark ></code></li>
+                                                      <li><code>< nav ></code></li>
+                                                      <li><code>< section ></code></li>
+                                                      <li><code>< summary ></code></li>
+                                                      <li><code>< time ></code></li>
+                                                </ul>
+                                              </div>
+                                            </div>
+                                          </div>
+                                </div>
+                            </div>
+                            
+
+                   </div>
+
+         
+                  
+
+ 
+          </section>
+          <!----------------- QnA section end  --------------------------------------------->
+
+
+          <!---------------- Trusted Companies section  start------------------------------------------>
+          <section class="my-5 d-lg-block d-none">
+                  <div class="text-center">
+                        <h1>We are Trusted by over 300+ companies</h1>
+                        <br><br>
+                  </div>
+                  <div class="d-md-none d-sm-none d-lg-flex justify-content-between">
+                          <div>
+                            <img src="image/company/company-1.png" alt="">
+                        </div>
+                        <div>
+                          <img src="image/company/company-2.png" alt="">
+                        </div>
+                        <div>
+                          <img src="image/company/company-3.png" alt="">
+                        </div>
+                        <div>
+                          <img src="image/company/company-4.png" alt="">
+                        </div>
+                        <div>
+                          <img src="image/company/company-5.png" alt="">
+                        </div>
+                        <div>
+                          <img src="image/company/company-6.png" alt="">
+                        </div>
+                  </div>
+          </section>
           
-
-
-
-
+          <!---------------- Trusted Companies section  end------------------------------------------>
     </main>
-    
-
     
 
     <!-- Bootstrap Javascript link  -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>    
 </body>
+
+    <!------------------------- Footer section start  ------------------------------------>
+    <footer class="mt-5 container-fluid bg-black w-100 h-100 text-light py-5" id="about">
+            <div class="d-flex justify-content-center align-items-center flex-column py-5">
+                  <div>
+                    <h1>Edu <span class="text-success">Share</span></h1>
+                  </div>
+                  <div>
+                    <p>Office 41, Zawaya Building , Ghala Muscat</p>
+                  </div>
+                  <div>
+                    <p>Sultanate of Oman</p>
+                  </div>
+                  <div>
+                    <p>Privacy Policy | Terms of use</p>  
+                  </div> <br>
+                  <div class="fs-1">
+                    <i class="fa-brands fa-facebook"></i>&nbsp
+                    <i class="fa-brands fa-twitter"></i>&nbsp
+                    <i class="fa-brands fa-linkedin"></i>&nbsp
+                    <i class="fa-brands fa-youtube"></i>&nbsp
+                  </div>
+            </div>
+
+            
+
+    </footer>
+    <!------------------------ Footer section end  ---------------------------------->
 </html>
