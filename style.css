@@ -1,0 +1,16 @@
+
+.slide-text{ 
+    height: 80%;     
+}
+.carousel-caption h1{ 
+    font-size: 5vw;
+}
+.carousel-caption p{ 
+    font-size: 1.6vw;
+}
+@media only screen and (max-width:575px){
+            .carousel-indicators{
+                visibility: hidden;
+            }
+    {
+
